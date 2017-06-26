@@ -35,6 +35,7 @@
 
 .column {
   margin-top: 90px;
+  margin-bottom: 90px;
   width: 1250px;
   display: flex;
   justify-content: space-between;
@@ -128,4 +129,39 @@
   border-bottom: 1px solid black;
   display: block;
   padding: 12px 25px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  width: 100%;
+  height: 325px;
+}
+
+
+.bottomnav {
+  display: inline;
+}
+
+.bottomnav a {
+    padding-left: 15px;
+    display: inline;
+    color: black;
+}
+
+.mastfoot {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border-right: 2px solid white;
+  padding-right: 30px;
+  margin-right: 20px;
+  display: inline;
 }
